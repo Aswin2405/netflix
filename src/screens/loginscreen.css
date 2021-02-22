@@ -1,0 +1,105 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg")
+    center no-repeat;
+    background-size:cover;
+}
+.loginScreen__logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.loginScreen__button{
+    right: 20px;
+    top: 20px;
+    position: fixed;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.loginScreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8)100%
+    )
+}
+/* .loginScreen__body{
+    z-index: 1;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.loginScreen__body>h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginScreen__body>h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+} */
+.loginScreen__body{
+    z-index: 1;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.loginScreen__body>h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginScreen__body>h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+.loginScreen__body>h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.loginScreen__input>form>input{
+    padding: 10px;
+    outline-width: 0;
+    border: none;
+    height: 30px;
+    max-width: 600px;
+    width: 30%;
+}
+.loginScreen__getStarted{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    padding: 16px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    outline-width: 0;
+}
+.loginScreen__input{
+    margin: 20px;
+}
